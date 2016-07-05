@@ -1,0 +1,21 @@
+{
+  "description": "Mail_redirection",
+  "manifest_version": 2,
+  "name": "Mail_redirection",
+  "version": "1.0",
+  "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/user-agent-rewriter",
+  "icons": {
+    "48": "icons/icon2-48.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["Jquery.js","myScript.js"]
+    }
+  ],
+  "permissions": [
+    "tabs",
+    "storage"
+],
+  "manifest_version": 2
+}
