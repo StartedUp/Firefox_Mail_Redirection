@@ -1,11 +1,14 @@
 {
-  "description": "Mail_redirection",
+
   "manifest_version": 2,
-  "name": "Mail_redirection",
-  "version": "1.0",
-  "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/user-agent-rewriter",
+  "name": "Mail Redirection",
+  "version": "0.1",
+  
+  "description": "Mail Redirection Tool",
+  "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/borderify",
+  
   "icons": {
-    "48": "icons/icon2-48.png"
+    "48": "icons/message-48.png"
   },
   "content_scripts": [
     {
@@ -17,5 +20,3 @@
     "tabs",
     "storage"
 ],
-  "manifest_version": 2
-}
